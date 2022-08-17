@@ -6,7 +6,7 @@ Rails.configuration.stripe = {
     :stripe_api_key => 'sk_test_51LVdU5FSVR4ZEBnzC47bCFtAUmp09O4J9Mv911Mcero6IU4mOXTlTIk1UCPFyCcOwHukHIcY08FBc7A149NVm1Jt00xG2zYmp7'
   }   
 
-  Stripe.api_key = Rails.application.credentials[:stripe][:secret]
+  Stripe.api_key = Rails.application.credentials[:stripe_api_key]
         end
     end
 end
