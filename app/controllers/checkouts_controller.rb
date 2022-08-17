@@ -24,4 +24,3 @@ class CheckoutsController < ApplicationController
     #   3.0.3 :040 >   puts int.amount
     #   3.0.3 :041 > end
   end
-  
